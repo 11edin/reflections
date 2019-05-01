@@ -7,4 +7,10 @@ stay up-to-date with your remote repository?
 
 	Not every change is necessary to be tracked to progress with the project.
 
- 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+	Forks and clones are quiet similar. Forks clones from a GitHub profile to
+	your GitHub profile and refers to the original origin of the code. Clones 
+	download the repositories of a projet to the computer. Whereas branches 
+	make only a different version of your repository.
+
