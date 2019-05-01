@@ -1,18 +1,46 @@
 What happens when you initialize a repository? Why do you need to do it?
 
+	When you initialize a repository than a file called ".git" is created. This 
+	is needed to enable the possibility for the version control. 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+
+	The staging area stores the data that could be commited wheras the working 
+	directory stores the place wher the data is. The repository is a finished 
+	verson of the staging area. It offers o good overview of the version control 
+	system.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	By checking the with git status you can see every change in the files. Then 
+	you choose with git add one of the files where you have done the change and 
+	commit the file. After you repeat until ther is no output in git status.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+	
+	When you want to try something new without knowing if it fitts or if you relly 
+	want to implement it in this version. So with branches it is possible to track 
+	the history of the new changes without really implementing it. 
 
 How do the diagrams help you visualize the branch structure?
+
+	Not every commit is showt in the branche history and and if you use diagrams 
+	you can track every log even if it is not showen.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	When we merge we combine two branches together so we can use the code of both
+	branches to make one branch (with the feacher in it). Therefore it is 
+	represented in the diagramm as it is.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Automatic merging would be really fast it is done correctly without mistakes.
+	But the code could become unnesseserly big. Manually merging is slow but it 
+	gives you full controle about the merging process. If done properly the code 
+	will be efficient and error resistent.
